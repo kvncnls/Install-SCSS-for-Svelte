@@ -23,7 +23,11 @@ In your `svelte.config.js` file, copy and paste the following:
 
 ## rollup.config.js
 
-In your `rollup.config.js` file, find the `export default` section and under the `plugins`, add the `preprocess` line below:
+In your `rollup.config.js` file, import `sveltePreprocess`.
+
+    import sveltePreprocess from  'svelte-preprocess';
+
+Next, find the `export default` section and under the `plugins`, add the `preprocess` line below:
 
     svelte({
 	    preprocess: sveltePreprocess(),
