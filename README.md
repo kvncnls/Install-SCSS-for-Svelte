@@ -41,3 +41,7 @@ Trouble finding it? It should be next to your `compilerOptions` line.
 
 ## SCSS is now ready!
 We can now add `lang="scss"` to any of our `style` tags in Svelte and it should run SCSS.
+Now, this might be tedious. There IS a way to make `scss` the default styling language.
+However, I couldn't find a way for VSCode to stop showing the red squigly underlines my valid `scss` code.
+The only way for my editor to see it as valid `scss` code is if I had `lang="scss"` written in the `style` tags anyway.
+If anyone can show me how to fix this weird bug, let me know! For now, I'll be tediously writing `lang='scss'` into every `style` tag. =(
