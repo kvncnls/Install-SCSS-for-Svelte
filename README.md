@@ -28,13 +28,7 @@ In your `rollup.config.js` file, import `sveltePreprocess`.
 
 Next, find the `export default` section and just under the `plugins`, add the one `preprocess` line below:
 
-    svelte({
-	    preprocess: sveltePreprocess(),
-	    compilerOptions: {
-    // enable run-time checks when not in production
-		    dev: !production
-	    }
-    }),
+	preprocess: sveltePreprocess(),
 
 Trouble finding it? It should be next to your `compilerOptions` line.
 
