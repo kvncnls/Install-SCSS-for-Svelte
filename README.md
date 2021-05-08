@@ -3,8 +3,7 @@ Firstly, install the [Svelte for VSCode Extension](https://marketplace.visualstu
 
     npx degit sveltejs/template my-svelte-app
     cd my-svelte-app
-    npm install -D svelte-preprocess
-    npm install -D sass
+    npm install -D svelte-preprocess sass
 
 Here we've created a new Svelte project under the folder `my-sevelte-app`. We've also installed `svelte-preprocess` and `sass`.
 
