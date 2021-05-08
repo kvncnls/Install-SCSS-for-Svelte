@@ -31,6 +31,14 @@ Next, find the `export default` section and just under the `plugins`, add the on
 	preprocess: sveltePreprocess(),
 
 Trouble finding it? It should be next to your `compilerOptions` line.
+	
+	svelte({
+		preprocess: sveltePreprocess(),
+		compilerOptions: {
+			// enable run-time checks when not in production
+			dev: !production
+		}
+	}),
 
 ## SCSS is now ready!
 We can now add `lang="scss"` to any of our `style` tags in Svelte and it should run SCSS.
